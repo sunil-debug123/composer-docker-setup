@@ -17,7 +17,6 @@ This repository contains a Docker Compose-based setup that allows you to run Com
    git clone https://github.com/sunil-debug123/composer-docker-setup
    cd composer-docker-setup
 
-   *Example*: 
-   ```
-   docker-compose -f /Users/sunil/projects/composer-docker-setup/docker-compose.yml run --rm composer create-project drupal/recommended-project blacklight-collections-drupal --ignore-platform-req=ext-gd
+   *Example*:
+    docker-compose -f /Users/sunil/projects/composer-docker-setup/docker-compose.yml run --rm composer create-project drupal/recommended-project blacklight-collections-drupal --ignore-platform-req=ext-gd
    ```
