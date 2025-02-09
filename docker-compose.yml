@@ -1,0 +1,7 @@
+services:
+  composer:
+    image: composer:latest
+    volumes:
+      - .:/app
+    command: ["composer"]
+    working_dir: /app 
